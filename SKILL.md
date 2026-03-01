@@ -1,4 +1,4 @@
-• ---
+  ---
   name: Design                                                                                                                                                  
   description: "Use this skill when the task is ambiguous or if explicitly requested."                                                                                                         
   metadata:                                                                                                                                                              
@@ -31,7 +31,7 @@
   ### 1) Understand the problem                                                                                                                                                     
   - Deeply understand what the user is trying to build
   - Ask multiple clarifying questions
-  - Ask Lad MCP Server to review problem statement to make sure it is clear
+  - Ask Lad MCP Server to review problem statement to make sure it is clear. Incorporate the feedback. Continue the rounds of review with Lad until it stops providing useful feedback
   - Ask user to confirm the summarized detailed problem description
   - Write the detailed description of the problem in the Problem section in DESIGN.md
                                                                                                                                                                          
@@ -40,18 +40,23 @@
   - Link relevant pieces of code and documentation
   - Use Kindly Web Search to look for additional context 
   - If the required context is beyond what can be clarified by a few searches (ex. user requested to use a completely new technology, or the problem seems to only be described in scientific papers) ask the user to provide more context through deep research.
-  - Ask Lad MCP Server to review the context and suggest additional questions to resolve
+  - Ask Lad MCP Server to review the context and suggest additional questions to resolve.Incorporate the feedback. Continue the rounds of review with Lad until it stops providing useful feedbackю
   - Write all the pieces of context in DESIGN.md
 
   ### 3) Split problem into subproblems                                                                                                                                                       
   - Use context to guide the split                                                                                                                                           
-  - Ask Lad MCP Server to review the proposed split
+  - Ask Lad MCP Server to review the proposed splitю Incorporate the feedback. Continue the rounds of review with Lad until it stops providing useful feedback
   - Ask the user to confirm the split
                                                                                                                                                                          
   ### 4) Solve the subproblems one by one                                                                                                                                                        
   - For each subproblem suggest alternative solutions
   - Analyze pros and cons of the solution
-  - Ask Lad MCP Server to review the reasoning
+  - Ask Lad MCP Server to review the reasoningю Incorporate the feedback. Continue the rounds of review with Lad until it stops providing useful feedback.
   - Select the best of the proposed solutions
   - Ask the user to review the alternatives and confirm the preferred solution.
   - Write the section to DESIGN.md
+
+  ### Review the design
+  - Review the design with Lad MCP
+  - If Lad suggests new subproblems to consider follow the subproblem solving instructions.
+  - Incorporate the feedback. Continue the rounds of review with Lad until it stops providing useful feedback.
