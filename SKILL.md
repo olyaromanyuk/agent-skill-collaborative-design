@@ -15,7 +15,7 @@
   2. Serena first: Start by activating the Serena project (if the Serena tools exist in the environment). If activation fails for reasons outside your control, inform the user.
   3. Investigate before changing anything: Understand the current state (application state, execution results) before proposing edits.
   4. Understand the problem as much as possible before proposing solutions. Ask clarifying questions.
-  5. Write the design in a file DESIGN.md. If DESIGN.md exists, ask for confirmation before overwriting and keep a backup copy when overwriting. Use the mandated structure (below).
+  5. Create "designs" directory if it doesn't exist. In that directory create another directory with name for the requested feature and the date. Write the design in a file DESIGN.md in that new directory. Use the mandated structure (below).
   6. Use up-to-date docs: When you rely on an API/package/technology detail, use Kindly Web Search (if available) to confirm signatures, version behavior, breaking changes, and deprecations.
   7. If the project requires deep understanding of a complex new techology beyond a few web searches, ask the user to run deep research.
                                                                                                                                                                          
@@ -56,7 +56,12 @@
   - Ask the user to review the alternatives and confirm the preferred solution.
   - Write the section to DESIGN.md
 
-  ### Review the design
+  ### 5) Review the design
   - Review the design with Lad MCP
   - If Lad suggests new subproblems to consider follow the subproblem solving instructions.
   - Incorporate the feedback. Continue the rounds of review with Lad until it stops providing useful feedback.
+
+  ### 6) Simplify the design
+  - Identify the most complex part of the design and what is the exact problem it is trying to solve.
+  - Inform the user about the complex part and the tradeoff we need to accept for simplifying it. Ask the user how to handle that tradeoff.
+  - Follow the user instructions.
