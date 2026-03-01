@@ -1,5 +1,5 @@
   ---
-  name: Design                                                                                                                                                  
+  name: design                                                                                                                                                  
   description: "Use this skill when the task is ambiguous or if explicitly requested."                                                                                                         
   metadata:                                                                                                                                                              
     short-description: Design for clarifying ambiguous problems.                                                                                                                   
